@@ -1,0 +1,12 @@
+{
+ "doctype": "Page",
+ "module": "Nexus Tracker",
+ "name": "live-map",
+ "page_name": "live-map",
+ "title": "Live Map",
+ "roles": [
+  {"role": "Field Manager"},
+  {"role": "Field Supervisor"},
+  {"role": "System Manager"}
+ ]
+}

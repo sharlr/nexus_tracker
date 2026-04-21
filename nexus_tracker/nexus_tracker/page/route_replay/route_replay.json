@@ -1,0 +1,12 @@
+{
+ "doctype": "Page",
+ "module": "Nexus Tracker",
+ "name": "route-replay",
+ "page_name": "route-replay",
+ "title": "Route Replay",
+ "roles": [
+  {"role": "Field Manager"},
+  {"role": "Field Supervisor"},
+  {"role": "System Manager"}
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "app": "nexus_tracker",
+ "charts": [],
+ "content": "[]",
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "location",
+ "indicator_color": "blue",
+ "is_hidden": 0,
+ "label": "Nexus Tracker",
+ "links": [],
+ "module": "Nexus Tracker",
+ "name": "Nexus Tracker",
+ "number_cards": [],
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 100.0,
+ "shortcuts": [
+  {"label":"FT Employee","link_to":"FT Employee","type":"DocType"},
+  {"label":"FT Shift","link_to":"FT Shift","type":"DocType"},
+  {"label":"FT Client","link_to":"FT Client","type":"DocType"},
+  {"label":"FT Client Visit","link_to":"FT Client Visit","type":"DocType"},
+  {"label":"FT Alert","link_to":"FT Alert","type":"DocType"},
+  {"label":"FT Location Ping","link_to":"FT Location Ping","type":"DocType"}
+ ],
+ "title": "Nexus Tracker",
+ "type": "Workspace"
+}

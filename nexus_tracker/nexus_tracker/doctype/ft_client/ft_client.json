@@ -1,0 +1,29 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": ["customer","client_name","territory","latitude","longitude","geofence_radius","address"],
+ "fields": [
+  {"fieldname":"customer","fieldtype":"Link","in_list_view":1,"label":"ERPNext Customer","options":"Customer","reqd":1},
+  {"fetch_from":"customer.customer_name","fieldname":"client_name","fieldtype":"Data","label":"Client Name","read_only":1},
+  {"fetch_from":"customer.territory","fieldname":"territory","fieldtype":"Link","label":"Territory","options":"Territory","read_only":1},
+  {"fieldname":"latitude","fieldtype":"Float","in_list_view":1,"label":"Latitude","reqd":1},
+  {"fieldname":"longitude","fieldtype":"Float","in_list_view":1,"label":"Longitude","reqd":1},
+  {"default":"200","fieldname":"geofence_radius","fieldtype":"Int","label":"Geofence Radius (metres)"},
+  {"fieldname":"address","fieldtype":"Small Text","label":"Address"}
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "module": "Nexus Tracker",
+ "name": "FT Client",
+ "permissions": [
+  {"create":1,"delete":1,"email":1,"export":1,"print":1,"read":1,"report":1,"role":"System Manager","share":1,"write":1},
+  {"create":1,"read":1,"report":1,"role":"Field Manager","write":1},
+  {"read":1,"role":"Field Employee"}
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

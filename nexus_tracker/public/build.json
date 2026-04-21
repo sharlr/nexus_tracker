@@ -1,0 +1,8 @@
+{
+    "js/nexus_tracker.min.js": [
+        "public/js/nexus_tracker.js"
+    ],
+    "css/nexus_tracker.min.css": [
+        "public/css/nexus_tracker.css"
+    ]
+}
