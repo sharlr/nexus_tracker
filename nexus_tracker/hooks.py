@@ -30,8 +30,8 @@ scheduler_events = {
     }
 }
 
-app_include_js = ["/assets/nexus_tracker/js/nexus_tracker.min.js"]
-app_include_css = ["/assets/nexus_tracker/css/nexus_tracker.min.css"]
+app_include_js = ["/assets/nexus_tracker/js/nexus_tracker.js"]
+app_include_css = ["/assets/nexus_tracker/css/nexus_tracker.css"]
 
 website_route_rules = [
     {"from_route": "/tracker-portal/<path:name>", "to_route": "tracker_portal"},
