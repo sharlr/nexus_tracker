@@ -1,0 +1,19 @@
+{
+ "doctype": "DocType",
+ "name": "FT Location Ping",
+ "module": "Nexus Tracker",
+ "fields": [
+  {"fieldname":"employee","fieldtype":"Link","options":"FT Employee","label":"Employee","reqd":1},
+  {"fieldname":"shift","fieldtype":"Link","options":"FT Shift","label":"Shift"},
+  {"fieldname":"latitude","fieldtype":"Float","label":"Latitude","reqd":1},
+  {"fieldname":"longitude","fieldtype":"Float","label":"Longitude","reqd":1},
+  {"fieldname":"accuracy","fieldtype":"Float","label":"Accuracy (m)"},
+  {"fieldname":"altitude","fieldtype":"Float","label":"Altitude (m)"},
+  {"fieldname":"speed","fieldtype":"Float","label":"Speed (m/s)"},
+  {"fieldname":"battery_level","fieldtype":"Int","label":"Battery Level (%)"},
+  {"fieldname":"gps_enabled","fieldtype":"Check","label":"GPS Enabled"},
+  {"fieldname":"network_type","fieldtype":"Data","label":"Network Type"},
+  {"fieldname":"phone_model","fieldtype":"Data","label":"Phone Model"},
+  {"fieldname":"recorded_at","fieldtype":"Datetime","label":"Recorded At","reqd":1}
+ ]
+}
