@@ -2,28 +2,101 @@
  "app": "nexus_tracker",
  "charts": [],
  "content": "[]",
+ "creation": "2026-04-22 02:07:08.832476",
+ "custom_blocks": [],
+ "docstatus": 0,
  "doctype": "Workspace",
  "hide_custom": 0,
  "icon": "location",
+ "idx": 0,
  "indicator_color": "blue",
  "is_hidden": 0,
  "label": "Nexus Tracker",
- "links": [],
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Pages",
+   "link_count": 0,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Live Map",
+   "link_count": 0,
+   "link_to": "live-map",
+   "link_type": "Page",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Route Replay",
+   "link_count": 0,
+   "link_to": "route-replay",
+   "link_type": "Page",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-04-22 02:18:57.631637",
+ "modified_by": "Administrator",
  "module": "Nexus Tracker",
  "name": "Nexus Tracker",
  "number_cards": [],
+ "owner": "Administrator",
  "parent_page": "",
  "public": 1,
  "quick_lists": [],
  "roles": [],
  "sequence_id": 100.0,
  "shortcuts": [
-  {"label":"FT Employee","link_to":"FT Employee","type":"DocType"},
-  {"label":"FT Shift","link_to":"FT Shift","type":"DocType"},
-  {"label":"FT Client","link_to":"FT Client","type":"DocType"},
-  {"label":"FT Client Visit","link_to":"FT Client Visit","type":"DocType"},
-  {"label":"FT Alert","link_to":"FT Alert","type":"DocType"},
-  {"label":"FT Location Ping","link_to":"FT Location Ping","type":"DocType"}
+  {
+   "label": "FT Employee",
+   "link_to": "FT Employee",
+   "type": "DocType"
+  },
+  {
+   "label": "FT Shift",
+   "link_to": "FT Shift",
+   "type": "DocType"
+  },
+  {
+   "label": "FT Client",
+   "link_to": "FT Client",
+   "type": "DocType"
+  },
+  {
+   "label": "FT Client Visit",
+   "link_to": "FT Client Visit",
+   "type": "DocType"
+  },
+  {
+   "label": "FT Alert",
+   "link_to": "FT Alert",
+   "type": "DocType"
+  },
+  {
+   "label": "FT Location Ping",
+   "link_to": "FT Location Ping",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "Live Map",
+   "link_to": "live-map",
+   "type": "Page"
+  },
+  {
+   "doc_view": "",
+   "label": "Route Replay",
+   "link_to": "route-replay",
+   "type": "Page"
+  }
  ],
  "title": "Nexus Tracker",
  "type": "Workspace"
