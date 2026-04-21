@@ -1,0 +1,32 @@
+/* NEXUS RAJAN - TRACKER PRO — Global Styles
+   © Copyright NEXUS RAJAN 2026 DJIBOUTI */
+.nt-copyright {
+    font-size: 10px;
+    color: var(--text-muted);
+    text-align: center;
+    padding: 6px 0;
+    border-top: 1px solid var(--border-color);
+}
+.nt-filter-bar {
+    display: flex;
+    gap: 8px;
+    padding: 8px 16px;
+    background: var(--control-bg);
+    border-bottom: 1px solid var(--border-color);
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.nt-filter-bar select,
+.nt-filter-bar input {
+    font-size: 11px;
+    max-width: 160px;
+}
+.nt-stat-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 12px 16px;
+}
+.nt-stat-label { font-size: 10px; color: var(--text-muted); margin-bottom: 4px; }
+.nt-stat-value { font-size: 20px; font-weight: 700; color: var(--text-color); }
+.nt-lang-btn.active { background: var(--primary); color: white; border-color: var(--primary); }
