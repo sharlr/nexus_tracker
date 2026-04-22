@@ -1,28 +1,96 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:ALERT-{employee}-{alert_type}",
+ "creation": "2026-04-22 01:46:49.279707",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": ["employee","alert_type","message","latitude","longitude","is_read","created_at"],
+ "field_order": [
+  "employee",
+  "alert_type",
+  "message",
+  "latitude",
+  "longitude",
+  "is_read",
+  "created_at"
+ ],
  "fields": [
-  {"fieldname":"employee","fieldtype":"Link","in_list_view":1,"label":"Employee","options":"FT Employee","reqd":1},
-  {"fieldname":"alert_type","fieldtype":"Select","in_list_view":1,"label":"Alert Type","options":"GPS Off\nLow Battery\nGeofence\nInactivity","reqd":1},
-  {"fieldname":"message","fieldtype":"Small Text","label":"Message"},
-  {"fieldname":"latitude","fieldtype":"Float","label":"Latitude"},
-  {"fieldname":"longitude","fieldtype":"Float","label":"Longitude"},
-  {"default":"0","fieldname":"is_read","fieldtype":"Check","label":"Is Read"},
-  {"fieldname":"created_at","fieldtype":"Datetime","label":"Created At"}
+  {
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Employee",
+   "options": "FT Employee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "alert_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Alert Type",
+   "options": "GPS Off\nLow Battery\nGeofence\nInactivity",
+   "reqd": 1
+  },
+  {
+   "fieldname": "message",
+   "fieldtype": "Small Text",
+   "label": "Message"
+  },
+  {
+   "fieldname": "latitude",
+   "fieldtype": "Float",
+   "label": "Latitude"
+  },
+  {
+   "fieldname": "longitude",
+   "fieldtype": "Float",
+   "label": "Longitude"
+  },
+  {
+   "default": "0",
+   "fieldname": "is_read",
+   "fieldtype": "Check",
+   "label": "Is Read"
+  },
+  {
+   "fieldname": "created_at",
+   "fieldtype": "Datetime",
+   "label": "Created At"
+  }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
+ "modified": "2026-04-22 22:51:29.092847",
+ "modified_by": "Administrator",
  "module": "Nexus Tracker",
  "name": "FT Alert",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
  "permissions": [
-  {"create":1,"delete":1,"email":1,"export":1,"print":1,"read":1,"report":1,"role":"System Manager","share":1,"write":1},
-  {"create":1,"read":1,"report":1,"role":"Field Manager","write":1}
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Field Manager",
+   "write": 1
+  }
  ],
+ "row_format": "Dynamic",
  "sort_field": "creation",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "employee"
 }

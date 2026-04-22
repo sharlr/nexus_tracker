@@ -1,33 +1,125 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "format:PING-{employee}-{recorded_at}",
+ "creation": "2026-04-22 01:46:49.208831",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
- "field_order": ["employee","shift","latitude","longitude","accuracy","altitude","speed","battery_level","gps_enabled","network_type","phone_model","recorded_at"],
+ "field_order": [
+  "employee",
+  "shift",
+  "latitude",
+  "longitude",
+  "accuracy",
+  "altitude",
+  "speed",
+  "battery_level",
+  "gps_enabled",
+  "network_type",
+  "phone_model",
+  "recorded_at"
+ ],
  "fields": [
-  {"fieldname":"employee","fieldtype":"Link","in_list_view":1,"label":"Employee","options":"FT Employee","reqd":1},
-  {"fieldname":"shift","fieldtype":"Link","label":"Shift","options":"FT Shift"},
-  {"fieldname":"latitude","fieldtype":"Float","in_list_view":1,"label":"Latitude","reqd":1},
-  {"fieldname":"longitude","fieldtype":"Float","in_list_view":1,"label":"Longitude","reqd":1},
-  {"fieldname":"accuracy","fieldtype":"Float","label":"Accuracy (m)"},
-  {"fieldname":"altitude","fieldtype":"Float","label":"Altitude (m)"},
-  {"fieldname":"speed","fieldtype":"Float","label":"Speed (m/s)"},
-  {"fieldname":"battery_level","fieldtype":"Int","label":"Battery Level (%)"},
-  {"default":"0","fieldname":"gps_enabled","fieldtype":"Check","label":"GPS Enabled"},
-  {"fieldname":"network_type","fieldtype":"Data","label":"Network Type"},
-  {"fieldname":"phone_model","fieldtype":"Data","label":"Phone Model"},
-  {"fieldname":"recorded_at","fieldtype":"Datetime","in_list_view":1,"label":"Recorded At","reqd":1}
+  {
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Employee",
+   "options": "FT Employee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "shift",
+   "fieldtype": "Link",
+   "label": "Shift",
+   "options": "FT Shift"
+  },
+  {
+   "fieldname": "latitude",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Latitude",
+   "reqd": 1
+  },
+  {
+   "fieldname": "longitude",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Longitude",
+   "reqd": 1
+  },
+  {
+   "fieldname": "accuracy",
+   "fieldtype": "Float",
+   "label": "Accuracy (m)"
+  },
+  {
+   "fieldname": "altitude",
+   "fieldtype": "Float",
+   "label": "Altitude (m)"
+  },
+  {
+   "fieldname": "speed",
+   "fieldtype": "Float",
+   "label": "Speed (m/s)"
+  },
+  {
+   "fieldname": "battery_level",
+   "fieldtype": "Int",
+   "label": "Battery Level (%)"
+  },
+  {
+   "default": "0",
+   "fieldname": "gps_enabled",
+   "fieldtype": "Check",
+   "label": "GPS Enabled"
+  },
+  {
+   "fieldname": "network_type",
+   "fieldtype": "Data",
+   "label": "Network Type"
+  },
+  {
+   "fieldname": "phone_model",
+   "fieldtype": "Data",
+   "label": "Phone Model"
+  },
+  {
+   "fieldname": "recorded_at",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Recorded At",
+   "reqd": 1
+  }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
+ "modified": "2026-04-22 22:51:29.207967",
+ "modified_by": "Administrator",
  "module": "Nexus Tracker",
  "name": "FT Location Ping",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
  "permissions": [
-  {"create":1,"delete":1,"read":1,"report":1,"role":"System Manager","write":1},
-  {"create":1,"read":1,"role":"Field Employee","write":1}
+  {
+   "create": 1,
+   "delete": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "write": 1
+  },
+  {
+   "create": 1,
+   "read": 1,
+   "role": "Field Employee",
+   "write": 1
+  }
  ],
+ "row_format": "Dynamic",
  "sort_field": "creation",
  "sort_order": "DESC",
- "states": []
+ "states": [],
+ "title_field": "employee"
 }
