@@ -43,7 +43,7 @@
    "type": "Link"
   }
  ],
- "modified": "2026-04-22 23:23:44.653602",
+ "modified": "2026-04-22 23:28:29.599264",
  "modified_by": "Administrator",
  "module": "Nexus Tracker",
  "name": "Nexus Tracker",
@@ -56,34 +56,10 @@
  "sequence_id": 100.0,
  "shortcuts": [
   {
-   "label": "FT Employee",
-   "link_to": "FT Employee",
-   "type": "DocType"
-  },
-  {
-   "label": "FT Shift",
-   "link_to": "FT Shift",
-   "type": "DocType"
-  },
-  {
-   "label": "FT Client",
-   "link_to": "FT Client",
-   "type": "DocType"
-  },
-  {
-   "label": "FT Client Visit",
-   "link_to": "FT Client Visit",
-   "type": "DocType"
-  },
-  {
-   "label": "FT Alert",
-   "link_to": "FT Alert",
-   "type": "DocType"
-  },
-  {
-   "label": "FT Location Ping",
-   "link_to": "FT Location Ping",
-   "type": "DocType"
+   "doc_view": "",
+   "label": "Dashboard",
+   "link_to": "nt-dashboard",
+   "type": "Page"
   },
   {
    "doc_view": "",
@@ -96,6 +72,42 @@
    "label": "Route Replay",
    "link_to": "route-replay",
    "type": "Page"
+  },
+  {
+   "doc_view": "",
+   "label": "FT Employee",
+   "link_to": "FT Employee",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "FT Shift",
+   "link_to": "FT Shift",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "FT Client",
+   "link_to": "FT Client",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "FT Client Visit",
+   "link_to": "FT Client Visit",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "FT Alert",
+   "link_to": "FT Alert",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "",
+   "label": "FT Location Ping",
+   "link_to": "FT Location Ping",
+   "type": "DocType"
   }
  ],
  "title": "Nexus Tracker",
