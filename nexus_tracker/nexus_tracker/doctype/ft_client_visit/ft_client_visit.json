@@ -17,13 +17,14 @@
   "rating",
   "notes",
   "photos",
-  "signature"
+  "signature",
+  "employee_name",
+  "client_name_display"
  ],
  "fields": [
   {
    "fieldname": "employee",
    "fieldtype": "Link",
-   "in_list_view": 1,
    "label": "Employee",
    "options": "FT Employee",
    "reqd": 1
@@ -37,7 +38,6 @@
   {
    "fieldname": "client",
    "fieldtype": "Link",
-   "in_list_view": 1,
    "label": "Client",
    "options": "FT Client",
    "reqd": 1
@@ -81,11 +81,27 @@
    "fieldname": "signature",
    "fieldtype": "Attach",
    "label": "Customer Signature"
+  },
+  {
+   "fetch_from": "employee.employee_name",
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Employee Name",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "client.client_name",
+   "fieldname": "client_name_display",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Client Name",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-04-22 22:51:28.976148",
+ "modified": "2026-04-22 23:11:52.127261",
  "modified_by": "Administrator",
  "module": "Nexus Tracker",
  "name": "FT Client Visit",

@@ -18,13 +18,13 @@
   "gps_enabled",
   "network_type",
   "phone_model",
-  "recorded_at"
+  "recorded_at",
+  "employee_name"
  ],
  "fields": [
   {
    "fieldname": "employee",
    "fieldtype": "Link",
-   "in_list_view": 1,
    "label": "Employee",
    "options": "FT Employee",
    "reqd": 1
@@ -91,11 +91,19 @@
    "in_list_view": 1,
    "label": "Recorded At",
    "reqd": 1
+  },
+  {
+   "fetch_from": "employee.employee_name",
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Employee Name",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-04-22 22:51:29.207967",
+ "modified": "2026-04-22 23:11:52.390960",
  "modified_by": "Administrator",
  "module": "Nexus Tracker",
  "name": "FT Location Ping",
